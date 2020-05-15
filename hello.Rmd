@@ -12,3 +12,13 @@ Hello Rmarkdown! This is some simple text.
 uselessVar = rnorm(10)
 print(uselessVar)
 ```
+
+```{r}
+library(tictoc)
+# And this is some timing stuff!
+tic()
+for (i in 1:100) {
+	uselessVar2 = rnorm(100)
+}
+toc()
+print(uselessVar2[1])
