@@ -1,0 +1,14 @@
+---
+title: "Hello Rmarkdown!"
+author: "Evan Murray"
+date: "2020-05-15"
+output: html_document
+---
+
+Hello Rmarkdown! This is some simple text.
+
+```{r}
+# And this is some comment text!
+uselessVar = rnorm(10)
+print(uselessVar)
+```
